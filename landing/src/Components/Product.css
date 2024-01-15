@@ -1,0 +1,14 @@
+.headline1
+{
+    color:coral;
+}
+.reveal{
+    position: relative;
+    transform: rotateY(150px);
+    opacity: 0;
+    transition: all 3s ease;
+}
+.reveal.active{
+    transform: translateY(0px);
+    opacity: 1;
+}
